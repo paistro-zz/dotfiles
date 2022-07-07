@@ -6,3 +6,4 @@ Arquivos de configuração do meu desktop.
 - Gerenciador de janelas: BSPWM
 - Terminal: Kitty
 - Fonte: Fantasque Sans Mono
+- Diretório para scripts: ~/Documentos/Scripts
