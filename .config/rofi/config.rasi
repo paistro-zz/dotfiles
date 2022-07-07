@@ -1,0 +1,19 @@
+//	          o     |                   o|        |     
+//	,---.,---..,---.|--- ,---.,---.,---..|    ,---|,---.
+//	|   |,---||`---.|    |    |   ||   |||    |   ||   |
+//	|---'`---^``---'`---'`    `---'`---|``---'`---'`---'
+//	|                              `---'                
+
+configuration {
+	font:			"Fantasque Sans Mono 15";
+	show-icons:		true;
+	icon-theme:		"Papirus";
+	display-drun:		"🔎";
+    	drun-display-format:	"{name}";
+}
+
+@theme "./nord.rasi"
+
+element-icon {
+	size: 25;
+}
