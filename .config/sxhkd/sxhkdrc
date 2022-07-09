@@ -30,6 +30,10 @@ super + @space
 shift + alt + n
 	kitty nnn -e
 
+# zenith
+shift + alt + z
+	kitty zenith
+
 #
 # Notificações
 # Padrão: ctrl + shift + *
