@@ -6,7 +6,7 @@
 
 " Configurações Nvim
 set clipboard+=unnamedplus
-set number
+set relativenumber
 set numberwidth=2
 
 " Destacando linha atual
