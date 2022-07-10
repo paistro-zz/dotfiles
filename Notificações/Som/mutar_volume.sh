@@ -5,7 +5,7 @@
 #	|                              `---'                
 
 # Verificando o ultimo volume
-ultimo_volume=$(cat ~/Documentos/Scripts/Som/ultimo_volume.txt)
+ultimo_volume=$(cat ~/Documentos/Notificações/Som/ultimo_volume.txt)
 
 # Verificando se o volume está em 0%
 # Caso for 0%: Setando volume para o ultimo volume
