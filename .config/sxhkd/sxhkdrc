@@ -34,6 +34,10 @@ shift + alt + n
 shift + alt + z
 	kitty zenith
 
+# picom
+shift + alt + p
+	{picom &, killall picom}
+
 #
 # Notificações
 # Padrão: ctrl + shift + *
@@ -41,23 +45,23 @@ shift + alt + z
 
 # aumentar volume
 XF86AudioRaiseVolume 
-	~/Documentos/Scripts/Som/aumentar_volume.sh
+	~/Documentos/Notificações/Som/aumentar_volume.sh
 
 # diminuir volume
 XF86AudioLowerVolume
-	~/Documentos/Scripts/Som/diminuir_volume.sh
+	~/Documentos/Notificações/Som/diminuir_volume.sh
 
 # mutar volume
 XF86AudioMute 
-	~/Documentos/Scripts/Som/mutar_volume.sh
+	~/Documentos/Notificações/Som/mutar_volume.sh
 
 # data
 ctrl + shift + d
-	~/Documentos/Scripts/data.sh
+	~/Documentos/Notificações/data.sh
 
 # trocar layout
 ctrl + shift + k
-	~/Documentos/Scripts/trocar_layout.sh
+	~/Documentos/Notificações/trocar_layout.sh
 
 #
 #### Bspwm
