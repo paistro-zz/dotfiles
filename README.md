@@ -8,3 +8,5 @@ Arquivos de configuração do meu desktop.
 - Terminal: Kitty
 - Launcher: Rofi
 - Fonte: Fantasque Sans Mono
+
+### Alana
