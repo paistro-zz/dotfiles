@@ -1,28 +1,27 @@
 #!/bin/sh
 
-#	          o     |                   o|        |     
-#	,---.,---..,---.|--- ,---.,---.,---..|    ,---|,---.
-#	|   |,---||`---.|    |    |   ||   |||    |   ||   |
-#	|---'`---^``---'`---'`    `---'`---|``---'`---'`---'
-#	|                              `---'                
+BLUE="\e[34m"
+ENDCOLOR="\e[0m"
 
+
+echo "Atualize a base de dados."
 sudo updatedb
-echo "Base de dados atualizada."
+echo "Feito."
 
-read -p "String: " app
-
-local=$(locate -i $app | fzf)
+local=$(locate -i $1 | fzf)
 
 echo "Selecione a opção:"
-echo "1. Copiar"
-echo "2. Mover"
-
+echo -e "${BLUE}1.${ENDCOLOR} Copiar"
+echo -e "${BLUE}2.${ENDCOLOR} Mover"
+echo -e "${BLUE}3.${ENDCOLOR} Sair"
 read opcao
 
 case $opcao in
 	1) rsync -ah --info=progress2 $local .;;
 	
 	2) mv -v $local .;;
-
+	
+	3) exit;;
+	
 	*) echo "Opção inválida."
 esac
